@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_youtube_ui/screens/home.dart';
 import 'package:flutter_youtube_ui/screens/inbox.dart';
+import 'package:flutter_youtube_ui/screens/library.dart';
 import 'package:flutter_youtube_ui/screens/trending.dart';
 
 class YoutubeMain extends StatefulWidget {
@@ -24,7 +25,7 @@ class _YoutubeMainState extends State<YoutubeMain> {
       TrendingScreen(),
       Center(child: Text("Subscriptions")),
       InboxScreen(),
-      Center(child: Text("Library")),
+      LibraryScreen(),
     ];
 
     return Scaffold(
